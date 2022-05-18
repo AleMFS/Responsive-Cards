@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.caixa {
+    background-color: #555;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{    
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 460px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.5s ease-in-out ;
+}
+.card:hover{
+    
+    transform:translateY(-20px);
+}
+
+.card-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+.card-body {
+    height: 170px;
+    padding: 17px;
+    text-align: center;
+}
+
+.card-footer {
+    text-align: center;
+    margin-top: 5px;
+    
+
+}
+
+.card-pais {
+    font-size: 25px;
+}
+
+.card-cidade {
+    margin: 10px 0px;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.card-text{
+    font-family: san;
+}
+.card-footer a {
+    display: block;
+    padding: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.card-1 .card-pais {
+    color: green;
+}
+.card-2 .card-pais {
+    color: blue;
+}
+.card-3 .card-pais {
+    color: purple;
+}
+.card-1 .card-footer{
+    background-color: green;
+}
+.card-2 .card-footer{
+    background-color: blue;
+}
+.card-3 .card-footer{
+    background-color: purple;
+}
